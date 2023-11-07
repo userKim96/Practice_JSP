@@ -21,6 +21,7 @@
 			<li><%= articleMap.get("id") %>|<%= articleMap.get("regDate") %>|<a href="detail?id=<%= articleMap.get("id") %>"><%= articleMap.get("title") %></a></li>
 		<% } %>
 	</ul>
+	<div><a href="../home/main">메인페이지</a></div>
 
 </body>
 </html>
